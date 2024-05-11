@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'email_domain_validator.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'pass',
+        'NAME': 'Enter_Name',    # Enter Name
+        'USER': 'Enter_User_Name',    # Enter Username
+        'PASSWORD': 'Enter_Password',    # Enter Password
         'HOST': 'localhost',
         'PORT': '5432',
     }
